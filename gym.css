@@ -44,3 +44,54 @@ body {
   color: inherit;
   line-height: 1.5em;
 }
+
+.Cabecera{
+  width: 100%;
+  min-height: auto;
+  background-color: aquamarine;
+
+  .Navegacion{
+  width: inherit;
+  min-height: 6vh;
+  background-color: red;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  
+  .Navegacion-icono{
+    width: fit-content;
+    min-height: inherit;
+    align-content: center;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .Navegacion-menu{
+    width:45%;
+    min-height: inherit;
+    background-color: green;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;    
+
+    .Navegacion-menu-li{
+      width: fit-content;
+      min-height: inherit;
+      align-content: center;
+      background-color: lightblue;
+
+      margin: 0 10px 0;  
+    }
+  }
+     .Navegacion-button{
+      width: 100px;
+      min-height: 30px;
+      background-color: yellow;
+      padding: 10px 0;
+    }
+
+}
+}
